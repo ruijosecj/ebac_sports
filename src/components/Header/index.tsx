@@ -2,7 +2,7 @@ import * as S from './styles'
 
 import cesta from '../../assets/cesta.png'
 import { paraReal } from '../Produto'
-import { useSelector } from 'react-redux/es/exports'
+import { useSelector } from 'react-redux'
 import { RootReducer } from '../../store'
 
 const Header = () => {
@@ -18,7 +18,7 @@ const Header = () => {
 
   return (
     <S.Header>
-      <h1>EBAC Sports</h1>
+      <h1>EBAC Sports </h1>
       <div>
         <span>{itensFavorito.length} favoritos</span>
         <img src={cesta} />

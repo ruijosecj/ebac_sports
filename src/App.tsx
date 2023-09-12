@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import Header from './components/Header'
 import Produtos from './containers/Produtos'
 
@@ -19,7 +18,7 @@ function App() {
       <GlobalStyle />
       <div className="container">
         <Header />
-        <Produtos favoritos={favoritos} favoritar={favoritar} />
+        <Produtos />
       </div>
     </Provider>
   )
